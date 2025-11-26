@@ -5,6 +5,9 @@ This repository contains the implementation and evaluation of various fusion str
 ## Introduction
 Traditional retrieval methods (like BM25) rely on exact keyword matching, while dense retrieval models (like ANCE) capture semantic meaning. This project aims to combine the strengths of both paradigms using score fusion strategies. We evaluate performance on **FiQA-2018** (Financial) and **TREC-COVID** (Medical/Zero-shot) datasets using the [BEIR Benchmark](https://github.com/beir-cellar/beir).
 
+## BEIR
+This project relies on the **BEIR** framework. To set up the environment, please follow the instructions at https://github.com/beir-cellar/beir.
+
 ### Supported Fusion Methods
 | Category | Methods | Description |
 | :--- | :--- | :--- |
@@ -99,7 +102,7 @@ Performance Comparison (@10) on **FiQA-2018** (In-domain) and **TREC-COVID** (Ou
 | GBDT | 0.3181 | 0.2473 | 0.7238 | 0.0171 |
 | **BPR** | **0.3431** | **0.2721** | 0.7495 | 0.0185 |
 
-### Key Findings
+### Conclusion
 1.  **In-Domain (FiQA):** ML-based methods, particularly **BPR**, outperform heuristics by effectively learning pairwise preferences from training data.
 2.  **Zero-Shot (TREC-COVID):** Simple heuristics like **Min Score** and **Product Score** generalize better. ML methods may suffer from overfitting to the training domain (FiQA) when applied to a significantly different distribution (COVID-19 data).
 
