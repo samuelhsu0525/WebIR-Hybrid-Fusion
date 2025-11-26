@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+
+datasets/
+cache/
+ANCE_results/
+BM25_results/
+results/
+*.pkl
+*.zip
+*.csv
+
+# mac system file
+.DS_Store
+
+# IDE settings (optional)
+.vscode/
+.idea/
+
+*.pdf
+
+beir/
