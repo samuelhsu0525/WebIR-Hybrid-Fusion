@@ -5,7 +5,7 @@ This repository contains the implementation and evaluation of various fusion str
 ## Introduction
 Traditional retrieval methods (like BM25) rely on exact keyword matching, while dense retrieval models (like ANCE) capture semantic meaning. This project aims to combine the strengths of both paradigms using score fusion strategies. We evaluate performance on **FiQA-2018** (Financial) and **TREC-COVID** (Medical/Zero-shot) datasets using the [BEIR Benchmark](https://github.com/beir-cellar/beir).
 
-## BEIR
+### BEIR
 This project relies on the **BEIR** framework. To set up the environment, please follow the instructions at https://github.com/beir-cellar/beir.
 
 ### Supported Fusion Methods
