@@ -83,7 +83,7 @@ python gbdt.py      # Train and Test GBDT
 python logistic.py  # Train and Test Logistic Regression
 ```
 
-## Experimental Results
+<!-- ## Experimental Results
 
 Performance Comparison (@10) on **FiQA-2018** (In-domain) and **TREC-COVID** (Out-of-domain).
 
@@ -109,4 +109,4 @@ Performance Comparison (@10) on **FiQA-2018** (In-domain) and **TREC-COVID** (Ou
 ## References
 * [1] Thakur, N., et al. "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models."
 * [2] "Sparse Meets Dense: A Hybrid Approach to Enhance Scientific Document Retrieval."
-* [3] "An Analysis of Fusion Functions for Hybrid Retrieval."
+* [3] "An Analysis of Fusion Functions for Hybrid Retrieval." -->
